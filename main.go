@@ -14,6 +14,9 @@ type Infos struct {
 }
 
 func main() {
+	log.SetLoggers(2, os.Stdout, os.Stderr)
+	logger.Debugf("blockchain notary service starting")
+
 	mux := http.NewServeMux()
 	mux.HandleFunc("/postfile/", postHandler) //post a file with its contents to gateway, returns hash
 	//ts makes & signs a nameTx, then posts to a node, which does the broadcasting
@@ -23,6 +26,7 @@ func main() {
 	mux.HandleFunc("/getfile/", getHandler) // request by name, receive contents
 
 	http.ListenAndServe(":11113", mux)
+	logger.Debugf("blockchain notary service now listening")
 }
 
 //-------------------------------------------------------

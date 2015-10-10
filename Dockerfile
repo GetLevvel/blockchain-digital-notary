@@ -10,14 +10,13 @@ ENV BRANCH       master
 ENV BINARY_PATH  ./cmd/$NAME
 ENV CLONE_PATH   $GOPATH/src/github.com/$ALIAS
 ENV INSTALL_PATH $INSTALL_BASE/$NAME
+ENV INSTALL_BASE /usr/local/bin
 
 # install
 WORKDIR $CLONE_PATH
 RUN git clone -q https://github.com/$REPO $CLONE_PATH && \
   go get github.com/eris-ltd/eris-cli/cmd/eris && \
-  go build 
-#  git checkout -q $BRANCH && \
-#  go build -o $INSTALL_PATH $BINARY_PATH
+  go build && go install
 
 # cleanup install
 #RUN rm -rf $GOPATH/src/* && \
@@ -30,18 +29,14 @@ RUN git clone -q https://github.com/$REPO $CLONE_PATH && \
 #  unset BRANCH
 
 # start script
-#COPY start.sh $INSTALL_BASE/start
+COPY start.sh $INSTALL_BASE/start
 
 # set user
 USER $USER
 WORKDIR $ERIS
 
-# configure
-#ENV TMROOT $ERIS/blockchains/tendermint
-#RUN mkdir --parents $TMROOT
-
 # boot
 VOLUME $ERIS
-EXPOSE 46656 46657
-#CMD ["start"]
+EXPOSE 11113
+CMD ["start"]
 

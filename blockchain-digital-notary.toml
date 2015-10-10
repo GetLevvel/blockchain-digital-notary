@@ -1,7 +1,7 @@
-name = "ipfs"
+name = "blockchain-digital-notary"
 
 [service]
-image = "eris/toadserver"
+image = "getlevvel/blockchain-digital-notary"
 ports = [ "11113:11113" ]
 volumes = [  ]
 environment = [  ]
@@ -12,11 +12,11 @@ environment = [  ]
 dependencies = [ "ipfs", "eris/keys" ] 
 
 [maintainer]
-name = "Eris Industries"
-email = "support@erisindustries.com"
+name = "Levvel"
+email = "hello@levvel.io"
 
 [location]
-repository = "github.com/eris-ltd/toadserver"
+repository = "github.com/getlevvel/blockchain-digital-notary"
 
 [machine]
 include = [ "docker" ]
