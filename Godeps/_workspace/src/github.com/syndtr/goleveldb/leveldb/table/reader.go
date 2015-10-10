@@ -14,16 +14,16 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/syndtr/gosnappy/snappy"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/syndtr/gosnappy/snappy"
 
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/cache"
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/comparer"
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/errors"
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/filter"
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/iterator"
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/opt"
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/storage"
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/cache"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/comparer"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/errors"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/filter"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/iterator"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/opt"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/storage"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/util"
 )
 
 var (

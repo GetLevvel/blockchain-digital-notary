@@ -3,8 +3,8 @@ package merkle
 import (
 	"bytes"
 
-	. "github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/common"
-	. "github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/common/test"
+	. "github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/common"
+	. "github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/common/test"
 
 	"fmt"
 	"testing"

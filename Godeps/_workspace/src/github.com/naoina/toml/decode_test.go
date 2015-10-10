@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/naoina/toml"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/naoina/toml"
 )
 
 const (

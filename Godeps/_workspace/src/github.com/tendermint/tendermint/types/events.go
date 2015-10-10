@@ -3,8 +3,8 @@ package types
 import (
 	"fmt"
 
-	. "github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/common"
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/wire"
+	. "github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/common"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/wire"
 )
 
 // Functions to generate eventId strings

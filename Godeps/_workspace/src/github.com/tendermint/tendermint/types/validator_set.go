@@ -6,9 +6,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/account"
-	. "github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/common"
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/merkle"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/account"
+	. "github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/common"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/merkle"
 )
 
 // ValidatorSet represent a set of *Validator at a given height.

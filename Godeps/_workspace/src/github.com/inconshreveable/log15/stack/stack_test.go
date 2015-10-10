@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/inconshreveable/log15/stack"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/inconshreveable/log15/stack"
 )
 
 type testType struct{}

@@ -12,7 +12,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/util"
 )
 
 // Cacher provides interface to implements a caching functionality.

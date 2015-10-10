@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	acm "github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/account"
-	. "github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/common"
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/merkle"
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/wire"
+	acm "github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/account"
+	. "github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/common"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/merkle"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/wire"
 )
 
 type Block struct {

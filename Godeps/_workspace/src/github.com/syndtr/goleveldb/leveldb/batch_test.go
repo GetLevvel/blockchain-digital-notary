@@ -10,8 +10,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/comparer"
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/memdb"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/comparer"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/memdb"
 )
 
 type tbRec struct {

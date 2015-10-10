@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/logger"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/logger"
 )
 
 var log = logger.New("module", "types")

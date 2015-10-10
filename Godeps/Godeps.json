@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/eris-ltd/toadserver",
+	"ImportPath": "github.com/getlevvel/blockchain-digital-notary",
 	"GoVersion": "go1.4.2",
 	"Packages": [
 		"./..."

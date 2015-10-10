@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"io"
 
-	. "github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/common"
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/merkle"
-	ptypes "github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/permission/types"
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/wire"
+	. "github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/common"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/merkle"
+	ptypes "github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/permission/types"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/wire"
 )
 
 // Signable is an interface for all signable things.

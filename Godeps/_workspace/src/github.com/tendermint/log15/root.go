@@ -3,8 +3,8 @@ package log15
 import (
 	"os"
 
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/inconshreveable/log15/term"
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/mattn/go-colorable"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/inconshreveable/log15/term"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/mattn/go-colorable"
 )
 
 var (

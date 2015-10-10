@@ -3,11 +3,11 @@ package account
 import (
 	"bytes"
 
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/ed25519"
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/ed25519/extra25519"
-	. "github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/common"
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/wire"
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/golang.org/x/crypto/ripemd160"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/ed25519"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/ed25519/extra25519"
+	. "github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/common"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/wire"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/golang.org/x/crypto/ripemd160"
 )
 
 // PubKey is part of Account and Validator.

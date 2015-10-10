@@ -6,7 +6,7 @@ import (
 	"io"
 	"os"
 
-	cclient "github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/rpc/core_client"
+	cclient "github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/rpc/core_client"
 )
 
 var (

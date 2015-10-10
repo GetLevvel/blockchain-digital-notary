@@ -2,11 +2,11 @@ package merkle
 
 import (
 	"bytes"
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/code.google.com/p/go.crypto/ripemd160"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/code.google.com/p/go.crypto/ripemd160"
 	"io"
 
-	. "github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/common"
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/wire"
+	. "github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/common"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/wire"
 )
 
 // Node

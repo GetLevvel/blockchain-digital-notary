@@ -4,12 +4,12 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/gorilla/websocket"
-	. "github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/common"
-	_ "github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/config/tendermint_test"
-	ctypes "github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/rpc/core/types"
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/rpc/types"
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/wire"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/gorilla/websocket"
+	. "github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/common"
+	_ "github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/config/tendermint_test"
+	ctypes "github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/rpc/core/types"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/rpc/types"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/wire"
 )
 
 const wsEventsChannelCapacity = 10

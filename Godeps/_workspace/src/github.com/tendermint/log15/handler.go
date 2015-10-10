@@ -11,7 +11,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/inconshreveable/log15/stack"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/inconshreveable/log15/stack"
 )
 
 // A Logger prints its log records by writing to a Handler.

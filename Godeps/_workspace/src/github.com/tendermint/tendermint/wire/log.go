@@ -1,8 +1,8 @@
 package wire
 
 import (
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/log15"
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/logger"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/log15"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/logger"
 )
 
 var log = logger.New("module", "binary")

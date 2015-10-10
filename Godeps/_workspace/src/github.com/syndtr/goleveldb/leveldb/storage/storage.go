@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/util"
 )
 
 type FileType uint32

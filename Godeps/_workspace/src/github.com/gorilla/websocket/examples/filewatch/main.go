@@ -14,7 +14,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/gorilla/websocket"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/gorilla/websocket"
 )
 
 const (

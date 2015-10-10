@@ -2,7 +2,7 @@ package types
 
 import (
 	"fmt"
-	acm "github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/account"
+	acm "github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/account"
 	"strings"
 )
 

@@ -2,8 +2,8 @@ package types
 
 import (
 	"fmt"
-	acm "github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/account"
-	ptypes "github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/permission/types"
+	acm "github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/account"
+	ptypes "github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/permission/types"
 )
 
 type AccountGetter interface {

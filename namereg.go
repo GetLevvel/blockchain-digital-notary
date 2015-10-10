@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/eris-ltd/mint-client/mintx/core"
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/tendermint/tendermint/wire"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/eris-ltd/mint-client/mintx/core"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/tendermint/tendermint/wire"
 )
 
 //TODO pass amt in from url. (make estimate of length)

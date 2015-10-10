@@ -5,7 +5,7 @@
 package main
 
 import (
-	"github.com/eris-ltd/toadserver/Godeps/_workspace/src/github.com/gorilla/websocket"
+	"github.com/getlevvel/blockchain-digital-notary/Godeps/_workspace/src/github.com/gorilla/websocket"
 	"log"
 	"net/http"
 	"time"
