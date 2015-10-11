@@ -1,7 +1,7 @@
 name = "blockchain-digital-notary"
 
 [service]
-image = "getlevvel/blockchain-digital-notary"
+image = "quay.io/ceehart/blockchain-notary"
 ports = [ "11113:11113" ]
 volumes = [  ]
 environment = [  ]

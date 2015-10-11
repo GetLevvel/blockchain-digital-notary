@@ -11,6 +11,7 @@ import (
 )
 
 func postHandler(w http.ResponseWriter, r *http.Request) {
+	logger.Debugf("in postHandler")
 	if r.Method == "POST" {
 		//TODO get amt from url
 		str := r.URL.Path[1:]

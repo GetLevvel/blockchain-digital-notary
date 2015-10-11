@@ -14,7 +14,6 @@ type Infos struct {
 }
 
 func main() {
-	log.SetLoggers(2, os.Stdout, os.Stderr)
 	logger.Debugf("blockchain notary service starting")
 
 	mux := http.NewServeMux()
