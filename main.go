@@ -15,7 +15,7 @@ type Infos struct {
 
 func main() {
 	log.Infof("blockchain notary service starting")
-	fmt.Printf("blockchain notary service starting...")
+	fmt.Printf("blockchain notary service starting...\n")
 	log.SetLoggers(3, os.Stdout, os.Stderr)
 	logger.Debugf("debug mode enabled")
 
