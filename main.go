@@ -14,7 +14,9 @@ type Infos struct {
 }
 
 func main() {
-	logger.Debugf("blockchain notary service starting")
+	log.Infof("blockchain notary service starting")
+	log.SetLoggers(3, os.Stdout, os.Stderr)
+	logger.Debugf("debug mode enabled")
 
 	mux := http.NewServeMux()
 	mux.HandleFunc("/postfile/", postHandler) //post a file with its contents to gateway, returns hash
